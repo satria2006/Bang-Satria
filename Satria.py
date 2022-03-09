@@ -69,7 +69,7 @@ def folder():
 IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
- © Group%s %s> %sZona %s> %sAkun \n   %s>%s Facebook [Meta] %s>%s Indonesia  %s[%s*%s] By : % s BangSatria\n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
+ © Group%s %sZona %s> %sAkun   %s>%s Facebook [Meta] %s>%s Indonesia  %s[%s*%s] By : %sBangSatria\n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
  (H,K,H,K,H,K,H,K,H,K,P,K,P,H,P,K,P,K,P,H,IP))
  
 # MASUK TOKEN (TOKEN LISTRIK)

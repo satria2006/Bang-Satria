@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# coding by Romi Afrizal
+# coding by BangSatria
 # Note : jangan di ubah lagi! nanti error, script udah enak
 # Open source code team | ngotak dikit cok jangan jual di perjual belikan 
 
@@ -14,7 +14,7 @@ ingfo = (
  - facebook    : facebook.com/satria.xkcll
  - whatsap     : +6281242120992
  - github      : github.com/satriazyy21
- - script name : ZAFI (Zona Akun Facebook Indonesia)
+ - script name : Satria (Zona Akun Facebook Indonesia)
  - version     : 1.1
  
 %s"""%(Hj,Mt))

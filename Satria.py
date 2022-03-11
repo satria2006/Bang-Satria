@@ -72,7 +72,7 @@ def banner():
  © Group%s %sZona %s> %sAkun   %s>%s Facebook [Meta] %s>%s Indonesia  %s[%s*%s] By : %sBangSatria\n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
  (H,K,H,K,H,K,H,K,H,K,P,K,P,H,P,K,P,K,P,H,IP))
  
-# MASUK TOKEN (TOKEN LISTRIK)
+# MASUKIN TOKEN LU (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
@@ -129,7 +129,7 @@ def login_bot(romz):
 	except:
 		pass
 		
-# DUMP PUBLIK
+# DUMP DARI PUBLIK/TEMAN
 def publik(romz,headers=header):
     try:
         os.mkdir('dump')
@@ -156,7 +156,7 @@ def publik(romz,headers=header):
     except Exception as e:
         exit('\n %s[!] gagal dump id'%(P))
         
-# DUMP FOLLOWERS
+# DUMP PENGIKUT (SARAN)
 def followers(romz,headers=header):
     try:
         os.mkdir('dump')
@@ -211,7 +211,7 @@ def postingan(romz,headers=header):
     except Exception as e:
         exit('\n %s[!] gagal dump id'%(P))
         
-# START CRACK
+# MULAI NGOC*K
 class ngentod:
 
     def __init__(self):
